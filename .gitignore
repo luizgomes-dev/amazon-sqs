@@ -1,0 +1,78 @@
+Consumer/appsettings.Development.json
+Publisher/appsettings.Development.json
+SQS/appsettings.Development.json
+
+# Ignorar diretórios de build
+SQS/bin/
+SQS/obj/
+Consumer/bin/
+Consumer/obj/
+
+# Binários compilados e pacotes NuGet
+bin/
+obj/
+*.nuspec
+*.nupkg
+
+# Configuração do Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.ide
+*.vscode/
+
+# Configuração de dependências e cache do NuGet
+packages/
+.nuget/
+project.lock.json
+global.json
+*.csproj.user
+
+# Logs e arquivos temporários
+logs/
+*.log
+dump/
+
+# Arquivos de build
+*.dll
+*.exe
+*.pdb
+*.cache
+*.ilk
+*.ilk
+*.map
+*.pch
+*.obj
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.log
+*.csproj.FileListAbsolute.txt
+
+# Diretórios de publicação
+publish/
+out/
+
+# Configurações do Rider (JetBrains)
+.idea/
+*.sln.iml
+
+# Certificados e chaves locais
+*.pfx
+*.p12
+
+# Arquivos de ambiente local
+.env
+secrets.json
+
+# Testes
+TestResults/
+coverage/
+*.coverage
+*.trx
+
+# Docker e Kubernetes
+.dockerignore
+docker-compose.override.yml
